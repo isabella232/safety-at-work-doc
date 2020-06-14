@@ -7,13 +7,13 @@ Table of contents
 
 <!--ts-->
 - [Table of contents](#table-of-contents)
-- [Introduction](#introduction)
+- [The solution](#the-solution)
   - [Use Cases](#use-cases)
   - [Architecture](#architecture)
   - [License](#license)
 <!--te-->
 
-Introduction
+The solution
 ============
 SAP Italia has developed an asset to support customers and partners in implementing a system to grant employees' safety, through contact tracing logic.
 
