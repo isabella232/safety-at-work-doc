@@ -33,7 +33,7 @@ As mentioned, **Safety @ Work** (S@W) is a ready-to-use solution. It immediately
   
     This contact log is uploaded to the company's safe central cloud storage in order to properly notify all *exposed eployees* once a certain person is certified as *tested positive* for Covid-19. This centralized process, grants that all the sensible informations are threated as anonymous before, during and after an exposure event is fired (i.e. each exposed user won't never know the identityt of the tested positive colleague. Only HR manager get this information, once the employee send to him/her a medical certificate);
 
-* **Crowd Monitoring** - the mobile application is able to communicate both with other instances of the app and [Bluetooth Low Energy (BLE) devices](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy). These devices can be installed within specific *hot sposts*, registered within S@W platform. Thanks to [iBeacon protocolo](https://en.wikipedia.org/wiki/IBeacon), the solution is able to collect "*fill level*" of each hot spot.
+* **Crowd Monitoring** - the mobile application is able to communicate both with other instances of the app and [Bluetooth Low Energy (BLE) devices](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy). These devices can be installed within specific *hot sposts*, registered within S@W platform. Thanks to [iBeacon protocol](https://en.wikipedia.org/wiki/IBeacon), the solution is able to collect "*fill level*" of each hot spot.
   
     ![Safety@Work Crowd Monitoring](/images/crowd_monitoring.png)
 
