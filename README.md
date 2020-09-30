@@ -1,6 +1,6 @@
 ![Safety@Work header](/images/header.png)
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://github.com/DP-3T/dp3t-sdk-ios/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Table of contents
 =================
@@ -10,6 +10,7 @@ Table of contents
 - [The solution](#the-solution)
   - [Use Cases](#use-cases)
   - [Architecture](#architecture)
+  - [Source Code](#source-code)
   - [License](#license)
 <!--te-->
 
@@ -25,7 +26,17 @@ The content of this GH Org. is intended to be used as a "**starting point**" for
 
 As mentioned, **Safety @ Work** (S@W) is a ready-to-use solution. It immediately provides to the customer/partner following use cases coverage:
 
-![Safety@Work use cases](/images/use_cases.png)
+![Safety@Work use cases (1)](/images/use_cases_1.png)
+
+![Safety@Work use cases (2)](/images/use_cases_2.png)
+
+* **Room Booking** - a responsive web application allows users of Safety @ Work to reserve a particular "space" - e.g. a Meeting room or a common/shared space - for him and his colleagues at a given time. Thanks to scheduling features, in a couple of clicks the user is able to send a reservation request that will be (if needed) approved by a supervisor or Manager;
+
+    ![Safety@Work Room Booking](/images/room_booking.png)
+
+* **Area Booking** - a responsive web application allows user to place a booking request for a given area. The overall flow is quite the same of the one explained in the Room Booking app, with the exception that the user is able to tell the system "hey, I'm going to be in that Area in that day". E.g. reservation of a parking lot for a given date, or reservation of a spot into a certain wing of the office;
+
+    ![Safety@Work Area Booking](/images/area_booking.png)
 
 * **Social Distancing** - thanks to a mobile application, the user is able to maintain a *contact log*, filled with all the contact events that occurr when two instances of the same application (i.e. two different users using S@W app at the same time) are exposed one to each other for a certain amount of time. 
 
@@ -70,6 +81,13 @@ Below picture shows all the technical components involved in Safety @ Work scena
 
 * **[HANA Multi-Target Application](https://www.cloudfoundry.org/blog/accelerating-deployment-distributed-cloud-applications/)** - single package containing all business logic necessary to store/expose data - levaraging HANA native artifacts - and backoffice web apps, built using [SAPUI5 Framework](https://sapui5.hana.ondemand.com/).
 
+## Source Code
+Source code of this asset can be found in following two repos:
 
+* **[Safety@Work iOS app](https://github.com/SAP-samples/safety-at-work-ios)** - this repo contains source code of iOS application and all the detailed infos needed to start running the app;
+
+* **[Safety@Work SCP Multi-Target App](https://github.com/SAP-samples/safety-at-work-mta)** - this repo contains source code of SCP back-end HANA & Business logic app and all the necessary steps to build, deploy and run the solution in a CloudFoundry environment.
+  
 ## License
-Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Mozilla MPL, version 2.0 except as noted otherwise in the LICENSE file.
+License
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
