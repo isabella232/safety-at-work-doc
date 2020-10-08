@@ -76,8 +76,12 @@ Below picture shows all the technical components involved in Safety @ Work scena
 * **[Mobile Services](https://help.sap.com/viewer/70ac991a4f734773b1892a8d0d45eabc/Cloud/en-US/63ee26c20b0d4f438007cd6d93a6b1af.html)** - is the *mobile middleware* that optimise communication between mobile app and back-end business logic;
 
 * **[SCP SDK for iOS](https://developers.sap.com/topics/cloud-platform-sdk-for-ios.html#details/cjmap8zwsflp609320bsvksqs)** - lower the complexity and grants flexibility in integrating a native iOS capabilities - i.e. Core Location, Core Bluetooth and UI Kit - with SAP Cloud Platform services;
+* 
+* **[SCP SDK for Android](https://developers.sap.com/topics/cloud-platform-sdk-for-android.html)** - lower the complexity and grants flexibility in integrating a native Android capabilities with SAP Cloud Platform services;
 
 * **[Portal Service](https://help.sap.com/viewer/ad4b9f0b14b0458cad9bd27bf435637d/Cloud/en-US/5798687972fd4c2bace31c65b47f5587.html)** - provides a central entry point (based on *Fiori Launchpad*) to backoffice users. According to their role, different user types have segregated access to specific *Fiori Applications*;
+
+* **[SCP Workflow](https://help.sap.com/viewer/16e4ca742bd742e98184ef1e53d2ec2d/Cloud/en-US/a3220658f2dc46a48e47614aa2a2c663.html)** - build, run, and manage workflows, from simple approvals to end-to-end processes that span across organizations and apps;
 
 * **[HANA Multi-Target Application](https://www.cloudfoundry.org/blog/accelerating-deployment-distributed-cloud-applications/)** - single package containing all business logic necessary to store/expose data - levaraging HANA native artifacts - and backoffice web apps, built using [SAPUI5 Framework](https://sapui5.hana.ondemand.com/).
 
@@ -85,6 +89,8 @@ Below picture shows all the technical components involved in Safety @ Work scena
 Source code of this asset can be found in following two repos:
 
 * **[Safety@Work iOS app](https://github.com/SAP-samples/safety-at-work-ios)** - this repo contains source code of iOS application and all the detailed infos needed to start running the app;
+
+* **[Coming soon] Safety@Work Android app** - this repo contains source code of Android application and all the detailed infos needed to start running the app;
 
 * **[Safety@Work SCP Multi-Target App](https://github.com/SAP-samples/safety-at-work-mta)** - this repo contains source code of SCP back-end HANA & Business logic app and all the necessary steps to build, deploy and run the solution in a CloudFoundry environment.
   
