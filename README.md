@@ -76,7 +76,7 @@ Below picture shows all the technical components involved in Safety @ Work scena
 * **[Mobile Services](https://help.sap.com/viewer/70ac991a4f734773b1892a8d0d45eabc/Cloud/en-US/63ee26c20b0d4f438007cd6d93a6b1af.html)** - is the *mobile middleware* that optimise communication between mobile app and back-end business logic;
 
 * **[SCP SDK for iOS](https://developers.sap.com/topics/cloud-platform-sdk-for-ios.html#details/cjmap8zwsflp609320bsvksqs)** - lower the complexity and grants flexibility in integrating a native iOS capabilities - i.e. Core Location, Core Bluetooth and UI Kit - with SAP Cloud Platform services;
-* 
+  
 * **[SCP SDK for Android](https://developers.sap.com/topics/cloud-platform-sdk-for-android.html)** - lower the complexity and grants flexibility in integrating a native Android capabilities with SAP Cloud Platform services;
 
 * **[Portal Service](https://help.sap.com/viewer/ad4b9f0b14b0458cad9bd27bf435637d/Cloud/en-US/5798687972fd4c2bace31c65b47f5587.html)** - provides a central entry point (based on *Fiori Launchpad*) to backoffice users. According to their role, different user types have segregated access to specific *Fiori Applications*;
