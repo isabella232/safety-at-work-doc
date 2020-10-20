@@ -90,7 +90,7 @@ Source code of this asset can be found in following two repos:
 
 * **[Safety@Work iOS app](https://github.com/SAP-samples/safety-at-work-ios)** - this repo contains source code of iOS application and all the detailed infos needed to start running the app;
 
-* **[Coming soon] Safety@Work Android app** - this repo contains source code of Android application and all the detailed infos needed to start running the app;
+* **[Safety@Work Android app](https://github.com/SAP-samples/safety-at-work-android)** - this repo contains source code of Android application and all the detailed infos needed to start running the app;
 
 * **[Safety@Work SCP Multi-Target App](https://github.com/SAP-samples/safety-at-work-mta)** - this repo contains source code of SCP back-end HANA & Business logic app and all the necessary steps to build, deploy and run the solution in a CloudFoundry environment.
   
